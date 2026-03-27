@@ -1,0 +1,1 @@
+export declare function Replace(character: Model): LuaTuple<[boolean, string?]>;
