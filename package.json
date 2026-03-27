@@ -9,7 +9,9 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "comicallynathan",
+  "homepage": "https://buckmad.com",
+  "repository": "https://github.com/Buckmad/FDH-TS",
   "license": "ISC",
   "type": "commonjs",
   "types": "out/index.d.ts",
