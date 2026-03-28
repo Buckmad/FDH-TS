@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/veteran",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Screw Dynamic Heads. View or contribute to the [catalogue](https://github.com/comicallynathan/ScrewDynamicHeads). Read more [here](https://devforum.roblox.com/t/fdh-git-catalogued-dynamic-heads-to-classic-faces/4534696?u=bearthegruff).",
   "main": "out/init.lua",
   "scripts": {
