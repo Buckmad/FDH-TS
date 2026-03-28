@@ -22,9 +22,9 @@ do
             return HttpService:GetAsync(url);
         end);
 
-        if not success then warn(`[FDH/Analyzer]: Got error \`{result}\` on attempt {i} while trying to retrieve classic faces database.`) end;
+        if not success then warn(`[Veteran/Analyzer]: Got error \`{result}\` on attempt {i} while trying to retrieve classic faces database.`) end;
 
-        if result then database = HttpService:JSONDecode(result) end;
+        if success and result then database = HttpService:JSONDecode(result); break end
     end
 end
 
